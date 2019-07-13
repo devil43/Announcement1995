@@ -12,7 +12,7 @@ bot.on('message', message =>{
     if(message.author.id != "599436030914854942" && message.channel.id === "595630451301941249"){
         if(msg.startsWith('>', 0)){
             if(msg === prefix + "tf" && message.channel.id === "595630451301941249"){
-                message.channel.send('@here **आज से Server Private हो गया है।अतः सदस्यगणों से निवेदन है कि Chat में Answer देने का प्रयास करे,जिसके परिणामस्वरूप,Text_Answer प्रदाता को उचित Role प्रदान की जाएगी।**') // Sends a message to the channel, with the content
+                message.channel.send('@here **जो भी Member आज Text में Answer दिया है उन्हें Role मिल गयी है। अब देखने वाली बात है की कब तक Answer देता है और कब तक अपना Role बरक़रार रखता है।**') // Sends a message to the channel, with the content
             }
             
         }
