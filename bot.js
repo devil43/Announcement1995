@@ -12,7 +12,7 @@ bot.on('message', message =>{
     if(message.author.id != "599436030914854942" && message.channel.id === "595630451301941249","598858800904142848","595821831999455232"){
         if(msg.startsWith('>', 0)){
             if(msg === prefix + "tf" && message.channel.id === "595630451301941249","598858800904142848","595821831999455232"){
-                message.channel.send('@here **जो लोग Role मांग रहे है पहले Announcement पढ़े। **') // Sends a message to the channel, with the content
+                message.channel.send('@here **जो जो अभी HQ में Answer दिया है उसे थोड़े देर में  Role मिल जायेगा। **') // Sends a message to the channel, with the content
             }
             
         }
